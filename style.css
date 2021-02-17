@@ -263,9 +263,9 @@ padding-left: 13px;
     justify-content: space-between;
 }
 .icon span:hover{
-transform: scale(1,1.2);
-  cursor: pointer;
 
+  cursor: pointer;
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 
 }
 .footer .wrapper{
@@ -281,7 +281,8 @@ transform: scale(1,1.2);
 .hov:hover ,
 .hov:focus {
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
-  }
+  fill:#CD6326;
+}
   h1{
     font-style: normal;
     font-weight: normal;
