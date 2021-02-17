@@ -262,3 +262,13 @@ transform: scale(1,1.2);
 .footer .wrapper{
     align-items: center;
 }
+.hov{
+   background-image: url(./assets/path0.svg);
+   width: 70px;
+   height: 70px;
+   background-repeat: no-repeat;
+}
+.hov:hover ,
+.hov:focus {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  }
