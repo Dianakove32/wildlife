@@ -39,7 +39,7 @@ body{
 }
 .navigation{
     color: #fff;
-    width: 516px;
+    width: 521px;
 
 }
 .navigation li:hover{
@@ -239,7 +239,8 @@ font-weight: normal;
 font-size: 23px;
 line-height: 42px;
 }
-.footer-wrapper{ padding-top: 130px;
+.footer-wrapper{
+     padding-top: 130px;
     padding-bottom: 139px;
         background-image: url('./assets/Rectangle\(3\).jpg');
     background-repeat: no-repeat;
@@ -267,8 +268,22 @@ transform: scale(1,1.2);
    width: 70px;
    height: 70px;
    background-repeat: no-repeat;
+   margin-right: 15px;
 }
 .hov:hover ,
 .hov:focus {
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
   }
+  h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 0px;
+    font-family: 'Roboto', sans-serif;
+  }
+.footer-wrapper .logo{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 0px;
+}
