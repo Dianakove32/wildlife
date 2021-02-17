@@ -1,12 +1,23 @@
 
+html{
+     margin: 0;
+    padding: 0;
+}
 body{
-    font-family:'Roboto';
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
 }
 .main{
-    background-image: url('./assets/Rectangle.png');
+    background-color: #02160b
+}
+.main-wrapper{
+     background-image: url('./assets/Rectangle.png');
     background-repeat: no-repeat;
     max-width: 1440px;
     height: 780px;
+    margin: auto;
 }
 .wrapper{
     max-width: 1200px;
@@ -17,7 +28,7 @@ body{
 .logo{
     color: #fff;
     /* //font-size: 32px; */
-    padding-top: 21px;
+    padding-top: 2px;
     display: flex;
     align-items: center;
 }
@@ -28,17 +39,29 @@ body{
 }
 .navigation{
     color: #fff;
-    width: 377px;
-    
+    width: 516px;
+
+}
+.navigation li:hover{
+    cursor: pointer;
+    color: #CD6326;
 }
 .navigation-ul{
-    font-style: 23px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+
+
     display: flex;
     text-decoration: none;
     justify-content: space-between;
     list-style-type: none;
      align-items: center;
+     margin-top: 17px;
+     padding-top: 10px;
 }
+
 .navigation-ul img{
     width: 23px;
     height: 23px;
@@ -46,32 +69,47 @@ body{
 
 .signIn{
     border: 2px solid #CD6326;
- padding: 5px 23px;
+ padding:3px 22px 3px 22px;
 border-radius: 5px;
 }
-.survival{
-    padding-top: 120px;
-   
+.signIn:hover{
+    background: #E39128;
+    color: #02160b;
 }
+.survival{
+    padding-top: 78px;
+}
+
 .survival .wrapper{
     flex-direction: column;
 }
 
 h2{
-    font-family:  'Open Sans';
-font-weight: 400;
+    margin: 0;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+
 font-style: normal;
+
+ color:  rgba(205, 99, 38, 1);
+font-weight: normal;
 font-size: 48px;
- color:  rgba(205, 99, 38, 1)
+line-height: 72px;
+letter-spacing: 2px;
 }
 .survival-content{
-    font-style: 18px;
+
     color: #fff;
     line-height: 27px;
     max-width: 274px;
     text-align: justify;
-font-weight: 400;
+ margin-top: 50px;
     font-style: normal;
+    margin-bottom: 49px;
+
+font-weight: normal;
+font-size: 18px;
+
 }
 button{
     background: #CD6326;
@@ -82,6 +120,10 @@ cursor: pointer;
 border: none;
 color: #fff;
 font-size: 23px;
+}
+button:hover{
+    background: #E39128;
+    color: #02160b;
 }
 .articles{
     background-color: rgba(204, 204, 204, 1);
@@ -96,31 +138,41 @@ font-size: 23px;
     text-align: center;
     color: rgba(51, 51, 51, 1);
     margin: 0;
+    letter-spacing: 0px;
+    font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
 }
 .articlex-text{
-    font-style: 24px;
+
     line-height: 36px;
     color: rgba(102, 102, 102, 1) ;
-    margin-top: 0;
+    margin-top: 19px;
     margin-bottom: 120px;
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+
 
 }
 .articles-slider{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 279px;
+    padding-bottom:210px;
 }
 .articles-slider-container{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    
+
+
 }
 .articles-slider-item{
     position: relative;
     margin-left: 30px;
     margin-right: 30px;
-  
+
 
 }
 .absolute{
@@ -129,13 +181,21 @@ font-size: 23px;
     bottom: 33px;
    text-align: center;
     z-index: 2;
-    margin-left: 66px;
+    margin-left: 55px;
+    letter-spacing: 0px;
+    font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 15px;
 }
 .vector{
     width: 29px;
     height: 39px;
     cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
 }
+
 .input{
   color: #333333;
   font-family: Open Sans;
@@ -143,6 +203,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 27px;
 line-height: 40px;
+
 }
 .input-cont{
     display: flex;
@@ -153,26 +214,46 @@ line-height: 40px;
     color: #fff;
     font-size: 23px;
 }
+h3{
+    margin-bottom: 0;
+}
 input{
-    
-    width: 540px;
+    border:1px solid   #666666;
+    width: 509px;
     font-size: 23px;
     background-color: #CCCCCC;
     padding:  15px;
 }
 .footer{
-    background-image: url('./assets/Rectangle\(3\).jpg');
+
+    background-color: #181617;
+
+}
+.footer .navigation-ul{
+    font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 42px;
+}
+.footer-wrapper{ padding-top: 130px;
+    padding-bottom: 139px;
+        background-image: url('./assets/Rectangle\(3\).jpg');
     background-repeat: no-repeat;
     max-width: 1440px;
-     
-    padding-top: 150px;
-    padding-bottom: 150px;
+    margin: auto;
 }
 .icon{
-    width: 260px;
-     
+    margin-top: 13px;
+    width:240px;
+
     display: flex;
     justify-content: space-between;
+}
+.icon span:hover{
+transform: scale(1,1.2);
+  cursor: pointer;
+
+
 }
 .footer .wrapper{
     align-items: center;
